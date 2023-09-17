@@ -1,0 +1,64 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.ichi2.anki.debug",
+  "variantName": "fullDebug",
+  "elements": [
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 21700101,
+      "versionName": "2.17alpha1-debug",
+      "outputFile": "AnkiDroid-full-x86_64-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 21700101,
+      "versionName": "2.17alpha1-debug",
+      "outputFile": "AnkiDroid-full-x86-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 21700101,
+      "versionName": "2.17alpha1-debug",
+      "outputFile": "AnkiDroid-full-armeabi-v7a-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 21700101,
+      "versionName": "2.17alpha1-debug",
+      "outputFile": "AnkiDroid-full-arm64-v8a-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}
