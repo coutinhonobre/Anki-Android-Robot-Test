@@ -22,7 +22,7 @@ Verifique Se O Item De Lista Foi Criado
 
 
 *** Test Cases ***
-Deve logar com sucesso
+Deve Adicionar Um Novo Baralho
     Wait Until Element Is Visible    id=com.ichi2.anki.debug:id/fab_main    timeout=20
     Click Element    id=com.ichi2.anki.debug:id/fab_main
     Wait Until Element Is Visible    id=com.ichi2.anki.debug:id/add_deck_action    timeout=20
