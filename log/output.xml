@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.3 on darwin)" generated="20230920 02:06:16.975" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.11.3 on darwin)" generated="20230920 02:10:23.239" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="/Users/coutinhonobre/AndroidStudioProjects/Anki-Robot-Test/tests">
 <suite id="s1-s1" name="AdicionarUmNovoBaralho" source="/Users/coutinhonobre/AndroidStudioProjects/Anki-Robot-Test/tests/AdicionarUmNovoBaralho.robot">
 <test id="s1-s1-t1" name="Deve Adicionar Um Novo Baralho" line="25">
@@ -20,66 +20,67 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230920 02:06:17.425" endtime="20230920 02:06:26.084"/>
+<status status="PASS" starttime="20230920 02:10:23.706" endtime="20230920 02:10:33.134"/>
 </kw>
 <kw name="Get Started" library="base">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/get_started</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:26.087" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
-<msg timestamp="20230920 02:06:26.501" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
-<status status="PASS" starttime="20230920 02:06:26.085" endtime="20230920 02:06:26.501"/>
+<msg timestamp="20230920 02:10:33.140" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
+<msg timestamp="20230920 02:10:33.547" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
+<status status="PASS" starttime="20230920 02:10:33.135" endtime="20230920 02:10:33.547"/>
 </kw>
 <kw name="Aceitar Permissao de Disco" library="base">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:29.252" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button
+<msg timestamp="20230920 02:10:35.408" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button
 criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:06:26.502" endtime="20230920 02:06:29.252"/>
+<status status="PASS" starttime="20230920 02:10:33.548" endtime="20230920 02:10:35.409"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:29.255" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
-<msg timestamp="20230920 02:06:29.610" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:06:29.253" endtime="20230920 02:06:29.610"/>
+<msg timestamp="20230920 02:10:35.413" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
+<msg timestamp="20230920 02:10:35.663" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:10:35.409" endtime="20230920 02:10:35.663"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:26.501" endtime="20230920 02:06:29.610"/>
+<status status="PASS" starttime="20230920 02:10:33.548" endtime="20230920 02:10:35.663"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:26.084" endtime="20230920 02:06:29.610"/>
+<status status="PASS" starttime="20230920 02:10:33.135" endtime="20230920 02:10:35.663"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:17.425" endtime="20230920 02:06:29.611"/>
+<status status="PASS" starttime="20230920 02:10:23.706" endtime="20230920 02:10:35.664"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/fab_main</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:30.919" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main
+<msg timestamp="20230920 02:10:37.101" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main
 criteria is com.ichi2.anki.debug:id/fab_main</msg>
-<status status="PASS" starttime="20230920 02:06:29.611" endtime="20230920 02:06:30.919"/>
+<status status="PASS" starttime="20230920 02:10:35.664" endtime="20230920 02:10:37.101"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/fab_main</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:30.921" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/fab_main'.</msg>
-<msg timestamp="20230920 02:06:31.036" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main</msg>
-<status status="PASS" starttime="20230920 02:06:30.919" endtime="20230920 02:06:31.036"/>
+<msg timestamp="20230920 02:10:37.106" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/fab_main'.</msg>
+<msg timestamp="20230920 02:10:37.477" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main</msg>
+<status status="PASS" starttime="20230920 02:10:37.101" endtime="20230920 02:10:37.477"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/add_deck_action</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:31.808" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
-<status status="PASS" starttime="20230920 02:06:31.036" endtime="20230920 02:06:31.808"/>
+<msg timestamp="20230920 02:10:38.283" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action
+criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
+<status status="PASS" starttime="20230920 02:10:37.477" endtime="20230920 02:10:38.283"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/add_deck_action</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:31.812" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/add_deck_action'.</msg>
-<msg timestamp="20230920 02:06:31.997" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
-<status status="PASS" starttime="20230920 02:06:31.809" endtime="20230920 02:06:31.997"/>
+<msg timestamp="20230920 02:10:38.285" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/add_deck_action'.</msg>
+<msg timestamp="20230920 02:10:38.598" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
+<status status="PASS" starttime="20230920 02:10:38.283" endtime="20230920 02:10:38.598"/>
 </kw>
 <kw name="Insira Texto No Campo de Mensagem">
 <arg>${DECK_NAME}</arg>
@@ -87,25 +88,26 @@ criteria is com.ichi2.anki.debug:id/fab_main</msg>
 <arg>id=com.ichi2.anki.debug:id/md_input_message</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:33.390" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
-<status status="PASS" starttime="20230920 02:06:31.998" endtime="20230920 02:06:33.390"/>
+<msg timestamp="20230920 02:10:40.543" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message
+criteria is com.ichi2.anki.debug:id/md_input_message</msg>
+<status status="PASS" starttime="20230920 02:10:38.600" endtime="20230920 02:10:40.544"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_input_message</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:33.393" level="INFO">Typing text 'Teste' into text field 'id=com.ichi2.anki.debug:id/md_input_message'</msg>
-<msg timestamp="20230920 02:06:33.612" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
-<status status="PASS" starttime="20230920 02:06:33.391" endtime="20230920 02:06:33.612"/>
+<msg timestamp="20230920 02:10:40.547" level="INFO">Typing text 'Teste' into text field 'id=com.ichi2.anki.debug:id/md_input_message'</msg>
+<msg timestamp="20230920 02:10:40.738" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
+<status status="PASS" starttime="20230920 02:10:40.544" endtime="20230920 02:10:40.738"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:31.998" endtime="20230920 02:06:33.612"/>
+<status status="PASS" starttime="20230920 02:10:38.599" endtime="20230920 02:10:40.738"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_button_positive</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:33.614" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/md_button_positive'.</msg>
-<msg timestamp="20230920 02:06:34.605" level="INFO">criteria is com.ichi2.anki.debug:id/md_button_positive</msg>
-<status status="PASS" starttime="20230920 02:06:33.612" endtime="20230920 02:06:34.605"/>
+<msg timestamp="20230920 02:10:40.742" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/md_button_positive'.</msg>
+<msg timestamp="20230920 02:10:41.689" level="INFO">criteria is com.ichi2.anki.debug:id/md_button_positive</msg>
+<status status="PASS" starttime="20230920 02:10:40.738" endtime="20230920 02:10:41.689"/>
 </kw>
 <kw name="Verifique Se O Item De Lista Foi Criado">
 <arg>${DECK_NAME}</arg>
@@ -113,36 +115,36 @@ criteria is com.ichi2.anki.debug:id/fab_main</msg>
 <arg>id=com.ichi2.anki.debug:id/deckpicker_name</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:35.601" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
-<status status="PASS" starttime="20230920 02:06:34.607" endtime="20230920 02:06:35.601"/>
+<msg timestamp="20230920 02:10:42.732" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
+<status status="PASS" starttime="20230920 02:10:41.691" endtime="20230920 02:10:42.733"/>
 </kw>
 <kw name="Get Text" library="AppiumLibrary">
 <var>${nome_atual}</var>
 <arg>id=com.ichi2.anki.debug:id/deckpicker_name</arg>
 <doc>Get element text (for hybrid and mobile browser use `xpath` locator, others might cause problem)</doc>
-<msg timestamp="20230920 02:06:35.693" level="INFO">Element 'id=com.ichi2.anki.debug:id/deckpicker_name' text is 'Teste' </msg>
-<msg timestamp="20230920 02:06:35.693" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
-<msg timestamp="20230920 02:06:35.693" level="INFO">${nome_atual} = Teste</msg>
-<status status="PASS" starttime="20230920 02:06:35.602" endtime="20230920 02:06:35.693"/>
+<msg timestamp="20230920 02:10:42.785" level="INFO">Element 'id=com.ichi2.anki.debug:id/deckpicker_name' text is 'Teste' </msg>
+<msg timestamp="20230920 02:10:42.785" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
+<msg timestamp="20230920 02:10:42.785" level="INFO">${nome_atual} = Teste</msg>
+<status status="PASS" starttime="20230920 02:10:42.733" endtime="20230920 02:10:42.785"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${nome_atual}</arg>
 <arg>${nome_esperado}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20230920 02:06:35.693" endtime="20230920 02:06:35.693"/>
+<status status="PASS" starttime="20230920 02:10:42.785" endtime="20230920 02:10:42.785"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:34.606" endtime="20230920 02:06:35.694"/>
+<status status="PASS" starttime="20230920 02:10:41.689" endtime="20230920 02:10:42.786"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
 <kw name="Close All Applications" library="AppiumLibrary">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20230920 02:06:35.694" endtime="20230920 02:06:36.414"/>
+<status status="PASS" starttime="20230920 02:10:42.786" endtime="20230920 02:10:43.361"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:35.694" endtime="20230920 02:06:36.414"/>
+<status status="PASS" starttime="20230920 02:10:42.786" endtime="20230920 02:10:43.361"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:17.424" endtime="20230920 02:06:36.414"/>
+<status status="PASS" starttime="20230920 02:10:23.705" endtime="20230920 02:10:43.362"/>
 </test>
-<status status="PASS" starttime="20230920 02:06:17.015" endtime="20230920 02:06:36.415"/>
+<status status="PASS" starttime="20230920 02:10:23.277" endtime="20230920 02:10:43.362"/>
 </suite>
 <suite id="s1-s2" name="AdicionarUmNovoCartaoAoBaralho" source="/Users/coutinhonobre/AndroidStudioProjects/Anki-Robot-Test/tests/AdicionarUmNovoCartaoAoBaralho.robot">
 <test id="s1-s2-t1" name="Deve Adicionar um novo cartão ao baralho" line="51">
@@ -163,66 +165,67 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230920 02:06:36.422" endtime="20230920 02:06:45.980"/>
+<status status="PASS" starttime="20230920 02:10:43.371" endtime="20230920 02:10:53.145"/>
 </kw>
 <kw name="Get Started" library="base">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/get_started</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:45.982" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
-<msg timestamp="20230920 02:06:46.441" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
-<status status="PASS" starttime="20230920 02:06:45.981" endtime="20230920 02:06:46.441"/>
+<msg timestamp="20230920 02:10:53.147" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
+<msg timestamp="20230920 02:10:53.655" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
+<status status="PASS" starttime="20230920 02:10:53.145" endtime="20230920 02:10:53.655"/>
 </kw>
 <kw name="Aceitar Permissao de Disco" library="base">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:47.780" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:06:46.441" endtime="20230920 02:06:47.780"/>
+<msg timestamp="20230920 02:10:55.990" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button
+criteria is com.android.packageinstaller:id/permission_allow_button
+criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:10:53.656" endtime="20230920 02:10:55.991"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:47.782" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
-<msg timestamp="20230920 02:06:47.846" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:06:47.780" endtime="20230920 02:06:47.846"/>
+<msg timestamp="20230920 02:10:55.993" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
+<msg timestamp="20230920 02:10:56.066" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:10:55.991" endtime="20230920 02:10:56.067"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:46.441" endtime="20230920 02:06:47.846"/>
+<status status="PASS" starttime="20230920 02:10:53.655" endtime="20230920 02:10:56.067"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:45.980" endtime="20230920 02:06:47.846"/>
+<status status="PASS" starttime="20230920 02:10:53.145" endtime="20230920 02:10:56.067"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:36.422" endtime="20230920 02:06:47.846"/>
+<status status="PASS" starttime="20230920 02:10:43.370" endtime="20230920 02:10:56.067"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/fab_main</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:48.882" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main
+<msg timestamp="20230920 02:10:57.066" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main
 criteria is com.ichi2.anki.debug:id/fab_main</msg>
-<status status="PASS" starttime="20230920 02:06:47.846" endtime="20230920 02:06:48.882"/>
+<status status="PASS" starttime="20230920 02:10:56.067" endtime="20230920 02:10:57.066"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/fab_main</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:48.886" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/fab_main'.</msg>
-<msg timestamp="20230920 02:06:49.133" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main</msg>
-<status status="PASS" starttime="20230920 02:06:48.883" endtime="20230920 02:06:49.133"/>
+<msg timestamp="20230920 02:10:57.070" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/fab_main'.</msg>
+<msg timestamp="20230920 02:10:57.194" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main</msg>
+<status status="PASS" starttime="20230920 02:10:57.067" endtime="20230920 02:10:57.194"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/add_deck_action</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:49.880" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action
-criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
-<status status="PASS" starttime="20230920 02:06:49.133" endtime="20230920 02:06:49.881"/>
+<msg timestamp="20230920 02:10:57.942" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
+<status status="PASS" starttime="20230920 02:10:57.194" endtime="20230920 02:10:57.942"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/add_deck_action</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:49.884" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/add_deck_action'.</msg>
-<msg timestamp="20230920 02:06:50.083" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
-<status status="PASS" starttime="20230920 02:06:49.881" endtime="20230920 02:06:50.084"/>
+<msg timestamp="20230920 02:10:57.946" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/add_deck_action'.</msg>
+<msg timestamp="20230920 02:10:58.558" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
+<status status="PASS" starttime="20230920 02:10:57.943" endtime="20230920 02:10:58.559"/>
 </kw>
 <kw name="Insira Texto No Campo de Mensagem">
 <arg>${DECK_NAME}</arg>
@@ -230,59 +233,60 @@ criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
 <arg>id=com.ichi2.anki.debug:id/md_input_message</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:51.341" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
-<status status="PASS" starttime="20230920 02:06:50.085" endtime="20230920 02:06:51.341"/>
+<msg timestamp="20230920 02:11:00.384" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
+<status status="PASS" starttime="20230920 02:10:58.559" endtime="20230920 02:11:00.384"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_input_message</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:51.343" level="INFO">Typing text 'Teste2' into text field 'id=com.ichi2.anki.debug:id/md_input_message'</msg>
-<msg timestamp="20230920 02:06:51.658" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
-<status status="PASS" starttime="20230920 02:06:51.341" endtime="20230920 02:06:51.659"/>
+<msg timestamp="20230920 02:11:00.388" level="INFO">Typing text 'Teste2' into text field 'id=com.ichi2.anki.debug:id/md_input_message'</msg>
+<msg timestamp="20230920 02:11:00.814" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
+<status status="PASS" starttime="20230920 02:11:00.384" endtime="20230920 02:11:00.814"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:50.084" endtime="20230920 02:06:51.659"/>
+<status status="PASS" starttime="20230920 02:10:58.559" endtime="20230920 02:11:00.815"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_button_positive</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:51.660" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/md_button_positive'.</msg>
-<msg timestamp="20230920 02:06:52.937" level="INFO">criteria is com.ichi2.anki.debug:id/md_button_positive</msg>
-<status status="PASS" starttime="20230920 02:06:51.659" endtime="20230920 02:06:52.937"/>
+<msg timestamp="20230920 02:11:00.817" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/md_button_positive'.</msg>
+<msg timestamp="20230920 02:11:01.731" level="INFO">criteria is com.ichi2.anki.debug:id/md_button_positive</msg>
+<status status="PASS" starttime="20230920 02:11:00.815" endtime="20230920 02:11:01.731"/>
 </kw>
 <kw name="ClickLong NoItem De Lista Foi Que Criado">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/deckpicker_name</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:53.836" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
-<status status="PASS" starttime="20230920 02:06:52.938" endtime="20230920 02:06:53.836"/>
+<msg timestamp="20230920 02:11:03.339" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name
+criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
+<status status="PASS" starttime="20230920 02:11:01.732" endtime="20230920 02:11:03.339"/>
 </kw>
 <kw name="Long Press" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']</arg>
 <doc>*DEPRECATED!!* Since selenium v4, use other keywords.</doc>
-<msg timestamp="20230920 02:06:53.836" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
-<msg timestamp="20230920 02:06:57.236" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']</msg>
-<status status="PASS" starttime="20230920 02:06:53.836" endtime="20230920 02:06:57.236"/>
+<msg timestamp="20230920 02:11:03.342" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
+<msg timestamp="20230920 02:11:06.137" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']</msg>
+<status status="PASS" starttime="20230920 02:11:03.339" endtime="20230920 02:11:06.137"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:52.937" endtime="20230920 02:06:57.236"/>
+<status status="PASS" starttime="20230920 02:11:01.731" endtime="20230920 02:11:06.138"/>
 </kw>
 <kw name="Click no Botão Add">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_recyclerview_content</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:57.351" level="INFO">criteria is com.ichi2.anki.debug:id/md_recyclerview_content</msg>
-<status status="PASS" starttime="20230920 02:06:57.237" endtime="20230920 02:06:57.351"/>
+<msg timestamp="20230920 02:11:06.208" level="INFO">criteria is com.ichi2.anki.debug:id/md_recyclerview_content</msg>
+<status status="PASS" starttime="20230920 02:11:06.138" endtime="20230920 02:11:06.208"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:57.352" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]'.</msg>
-<msg timestamp="20230920 02:06:57.455" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]</msg>
-<status status="PASS" starttime="20230920 02:06:57.351" endtime="20230920 02:06:57.455"/>
+<msg timestamp="20230920 02:11:06.210" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]'.</msg>
+<msg timestamp="20230920 02:11:06.290" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]</msg>
+<status status="PASS" starttime="20230920 02:11:06.208" endtime="20230920 02:11:06.290"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:57.236" endtime="20230920 02:06:57.455"/>
+<status status="PASS" starttime="20230920 02:11:06.138" endtime="20230920 02:11:06.290"/>
 </kw>
 <kw name="Insira Texto No Campo Front">
 <arg>Hi</arg>
@@ -290,18 +294,18 @@ criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
 <arg>xpath=//android.widget.EditText[@content-desc="Front"]</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:06:59.734" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
-<status status="PASS" starttime="20230920 02:06:57.456" endtime="20230920 02:06:59.735"/>
+<msg timestamp="20230920 02:11:08.018" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
+<status status="PASS" starttime="20230920 02:11:06.291" endtime="20230920 02:11:08.019"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>xpath=//android.widget.EditText[@content-desc="Front"]</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:06:59.738" level="INFO">Typing text 'Hi' into text field 'xpath=//android.widget.EditText[@content-desc="Front"]'</msg>
-<msg timestamp="20230920 02:07:00.197" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
-<status status="PASS" starttime="20230920 02:06:59.735" endtime="20230920 02:07:00.197"/>
+<msg timestamp="20230920 02:11:08.021" level="INFO">Typing text 'Hi' into text field 'xpath=//android.widget.EditText[@content-desc="Front"]'</msg>
+<msg timestamp="20230920 02:11:08.119" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
+<status status="PASS" starttime="20230920 02:11:08.019" endtime="20230920 02:11:08.119"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:57.455" endtime="20230920 02:07:00.197"/>
+<status status="PASS" starttime="20230920 02:11:06.290" endtime="20230920 02:11:08.119"/>
 </kw>
 <kw name="Insira Texto No Campo Back">
 <arg>Oi</arg>
@@ -309,86 +313,87 @@ criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
 <arg>xpath=//android.widget.EditText[@content-desc="Back"]</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:00.985" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
-<status status="PASS" starttime="20230920 02:07:00.198" endtime="20230920 02:07:00.985"/>
+<msg timestamp="20230920 02:11:09.150" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
+<status status="PASS" starttime="20230920 02:11:08.119" endtime="20230920 02:11:09.150"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>xpath=//android.widget.EditText[@content-desc="Back"]</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:00.987" level="INFO">Typing text 'Oi' into text field 'xpath=//android.widget.EditText[@content-desc="Back"]'</msg>
-<msg timestamp="20230920 02:07:01.098" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
-<status status="PASS" starttime="20230920 02:07:00.985" endtime="20230920 02:07:01.098"/>
+<msg timestamp="20230920 02:11:09.152" level="INFO">Typing text 'Oi' into text field 'xpath=//android.widget.EditText[@content-desc="Back"]'</msg>
+<msg timestamp="20230920 02:11:09.242" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
+<status status="PASS" starttime="20230920 02:11:09.151" endtime="20230920 02:11:09.242"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:00.198" endtime="20230920 02:07:01.098"/>
+<status status="PASS" starttime="20230920 02:11:08.119" endtime="20230920 02:11:09.242"/>
 </kw>
 <kw name="Click no Botão Save">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/action_save</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:01.101" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_save'.</msg>
-<msg timestamp="20230920 02:07:01.645" level="INFO">criteria is com.ichi2.anki.debug:id/action_save</msg>
-<status status="PASS" starttime="20230920 02:07:01.099" endtime="20230920 02:07:01.645"/>
+<msg timestamp="20230920 02:11:09.245" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_save'.</msg>
+<msg timestamp="20230920 02:11:09.794" level="INFO">criteria is com.ichi2.anki.debug:id/action_save</msg>
+<status status="PASS" starttime="20230920 02:11:09.243" endtime="20230920 02:11:09.794"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:01.098" endtime="20230920 02:07:01.645"/>
+<status status="PASS" starttime="20230920 02:11:09.242" endtime="20230920 02:11:09.794"/>
 </kw>
 <kw name="Click no Botão Voltar">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@content-desc='Navigate up']</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:01.647" level="INFO">Clicking element 'xpath=//*[@content-desc='Navigate up']'.</msg>
-<msg timestamp="20230920 02:07:03.465" level="INFO">xpath criteria: //*[@content-desc='Navigate up']</msg>
-<status status="PASS" starttime="20230920 02:07:01.646" endtime="20230920 02:07:03.465"/>
+<msg timestamp="20230920 02:11:09.796" level="INFO">Clicking element 'xpath=//*[@content-desc='Navigate up']'.</msg>
+<msg timestamp="20230920 02:11:11.207" level="INFO">xpath criteria: //*[@content-desc='Navigate up']</msg>
+<status status="PASS" starttime="20230920 02:11:09.795" endtime="20230920 02:11:11.208"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:01.645" endtime="20230920 02:07:03.465"/>
+<status status="PASS" starttime="20230920 02:11:09.794" endtime="20230920 02:11:11.208"/>
 </kw>
 <kw name="Click NoItem De Lista Foi Que Criado">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/deckpicker_name</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:04.994" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name
+<msg timestamp="20230920 02:11:12.386" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name
 criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
-<status status="PASS" starttime="20230920 02:07:03.466" endtime="20230920 02:07:04.994"/>
+<status status="PASS" starttime="20230920 02:11:11.208" endtime="20230920 02:11:12.386"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:04.996" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']'.</msg>
-<msg timestamp="20230920 02:07:05.146" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']</msg>
-<status status="PASS" starttime="20230920 02:07:04.994" endtime="20230920 02:07:05.146"/>
+<msg timestamp="20230920 02:11:12.389" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']'.</msg>
+<msg timestamp="20230920 02:11:12.558" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste2']</msg>
+<status status="PASS" starttime="20230920 02:11:12.387" endtime="20230920 02:11:12.558"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:03.465" endtime="20230920 02:07:05.146"/>
+<status status="PASS" starttime="20230920 02:11:11.208" endtime="20230920 02:11:12.558"/>
 </kw>
 <kw name="Verifique Se O Item De Lista Foi Criado">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>xpath=//android.view.View[@content-desc="Hi"]</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:09.116" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]
+<msg timestamp="20230920 02:11:16.186" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]
+xpath criteria: //android.view.View[@content-desc="Hi"]
 xpath criteria: //android.view.View[@content-desc="Hi"]
 xpath criteria: //android.view.View[@content-desc="Hi"]</msg>
-<status status="PASS" starttime="20230920 02:07:05.147" endtime="20230920 02:07:09.116"/>
+<status status="PASS" starttime="20230920 02:11:12.559" endtime="20230920 02:11:16.186"/>
 </kw>
 <kw name="Page Should Contain Element" library="AppiumLibrary">
 <arg>xpath=//android.view.View[@content-desc="Hi"]</arg>
 <doc>Verifies that current page contains `locator` element.</doc>
-<msg timestamp="20230920 02:07:09.176" level="INFO">Current page contains element 'xpath=//android.view.View[@content-desc="Hi"]'.</msg>
-<msg timestamp="20230920 02:07:09.176" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]</msg>
-<status status="PASS" starttime="20230920 02:07:09.116" endtime="20230920 02:07:09.176"/>
+<msg timestamp="20230920 02:11:16.221" level="INFO">Current page contains element 'xpath=//android.view.View[@content-desc="Hi"]'.</msg>
+<msg timestamp="20230920 02:11:16.221" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]</msg>
+<status status="PASS" starttime="20230920 02:11:16.186" endtime="20230920 02:11:16.221"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:05.147" endtime="20230920 02:07:09.176"/>
+<status status="PASS" starttime="20230920 02:11:12.559" endtime="20230920 02:11:16.221"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
 <kw name="Close All Applications" library="AppiumLibrary">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20230920 02:07:09.177" endtime="20230920 02:07:09.947"/>
+<status status="PASS" starttime="20230920 02:11:16.222" endtime="20230920 02:11:16.981"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:09.177" endtime="20230920 02:07:09.947"/>
+<status status="PASS" starttime="20230920 02:11:16.222" endtime="20230920 02:11:16.981"/>
 </kw>
-<status status="PASS" starttime="20230920 02:06:36.421" endtime="20230920 02:07:09.948"/>
+<status status="PASS" starttime="20230920 02:10:43.370" endtime="20230920 02:11:16.981"/>
 </test>
-<status status="PASS" starttime="20230920 02:06:36.416" endtime="20230920 02:07:09.948"/>
+<status status="PASS" starttime="20230920 02:10:43.363" endtime="20230920 02:11:16.982"/>
 </suite>
 <suite id="s1-s3" name="ConfigurarExibicaoAutomaticaDeResposta" source="/Users/coutinhonobre/AndroidStudioProjects/Anki-Robot-Test/tests/ConfigurarExibicaoAutomaticaDeResposta.robot">
 <test id="s1-s3-t1" name="Configurar exibição automática de resposta" line="36">
@@ -409,137 +414,136 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230920 02:07:09.954" endtime="20230920 02:07:21.536"/>
+<status status="PASS" starttime="20230920 02:11:16.988" endtime="20230920 02:11:27.145"/>
 </kw>
 <kw name="Get Started" library="base">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/get_started</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:21.537" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
-<msg timestamp="20230920 02:07:21.743" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
-<status status="PASS" starttime="20230920 02:07:21.536" endtime="20230920 02:07:21.743"/>
+<msg timestamp="20230920 02:11:27.147" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
+<msg timestamp="20230920 02:11:27.598" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
+<status status="PASS" starttime="20230920 02:11:27.145" endtime="20230920 02:11:27.598"/>
 </kw>
 <kw name="Aceitar Permissao de Disco" library="base">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:23.492" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:07:21.744" endtime="20230920 02:07:23.492"/>
+<msg timestamp="20230920 02:11:29.309" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:11:27.599" endtime="20230920 02:11:29.309"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:23.494" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
-<msg timestamp="20230920 02:07:23.599" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:07:23.492" endtime="20230920 02:07:23.599"/>
+<msg timestamp="20230920 02:11:29.311" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
+<msg timestamp="20230920 02:11:29.464" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:11:29.309" endtime="20230920 02:11:29.464"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:21.743" endtime="20230920 02:07:23.599"/>
+<status status="PASS" starttime="20230920 02:11:27.598" endtime="20230920 02:11:29.464"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:21.536" endtime="20230920 02:07:23.600"/>
+<status status="PASS" starttime="20230920 02:11:27.145" endtime="20230920 02:11:29.464"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:09.954" endtime="20230920 02:07:23.600"/>
+<status status="PASS" starttime="20230920 02:11:16.988" endtime="20230920 02:11:29.465"/>
 </kw>
 <kw name="Click NoItem Menu">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>xpath=//android.widget.ImageButton[@content-desc="Open drawer"]</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:24.869" level="INFO">xpath criteria: //android.widget.ImageButton[@content-desc="Open drawer"]</msg>
-<status status="PASS" starttime="20230920 02:07:23.601" endtime="20230920 02:07:24.869"/>
+<msg timestamp="20230920 02:11:30.685" level="INFO">xpath criteria: //android.widget.ImageButton[@content-desc="Open drawer"]</msg>
+<status status="PASS" starttime="20230920 02:11:29.465" endtime="20230920 02:11:30.685"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//android.widget.ImageButton[@content-desc="Open drawer"]</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:24.872" level="INFO">Clicking element 'xpath=//android.widget.ImageButton[@content-desc="Open drawer"]'.</msg>
-<msg timestamp="20230920 02:07:24.972" level="INFO">xpath criteria: //android.widget.ImageButton[@content-desc="Open drawer"]</msg>
-<status status="PASS" starttime="20230920 02:07:24.869" endtime="20230920 02:07:24.972"/>
+<msg timestamp="20230920 02:11:30.688" level="INFO">Clicking element 'xpath=//android.widget.ImageButton[@content-desc="Open drawer"]'.</msg>
+<msg timestamp="20230920 02:11:30.915" level="INFO">xpath criteria: //android.widget.ImageButton[@content-desc="Open drawer"]</msg>
+<status status="PASS" starttime="20230920 02:11:30.685" endtime="20230920 02:11:30.915"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:23.600" endtime="20230920 02:07:24.972"/>
+<status status="PASS" starttime="20230920 02:11:29.465" endtime="20230920 02:11:30.915"/>
 </kw>
 <kw name="Click no Botão Settings">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/nav_settings</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:24.976" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/nav_settings'.</msg>
-<msg timestamp="20230920 02:07:26.213" level="INFO">criteria is com.ichi2.anki.debug:id/nav_settings</msg>
-<status status="PASS" starttime="20230920 02:07:24.973" endtime="20230920 02:07:26.213"/>
+<msg timestamp="20230920 02:11:30.918" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/nav_settings'.</msg>
+<msg timestamp="20230920 02:11:32.180" level="INFO">criteria is com.ichi2.anki.debug:id/nav_settings</msg>
+<status status="PASS" starttime="20230920 02:11:30.916" endtime="20230920 02:11:32.180"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:24.972" endtime="20230920 02:07:26.213"/>
+<status status="PASS" starttime="20230920 02:11:30.915" endtime="20230920 02:11:32.180"/>
 </kw>
 <kw name="Click no Botão Reviewing">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/recycler_view</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:27.829" level="INFO">criteria is com.ichi2.anki.debug:id/recycler_view
+<msg timestamp="20230920 02:11:33.790" level="INFO">criteria is com.ichi2.anki.debug:id/recycler_view
 criteria is com.ichi2.anki.debug:id/recycler_view</msg>
-<status status="PASS" starttime="20230920 02:07:26.214" endtime="20230920 02:07:27.829"/>
+<status status="PASS" starttime="20230920 02:11:32.181" endtime="20230920 02:11:33.790"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:27.831" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]'.</msg>
-<msg timestamp="20230920 02:07:27.943" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]</msg>
-<status status="PASS" starttime="20230920 02:07:27.829" endtime="20230920 02:07:27.943"/>
+<msg timestamp="20230920 02:11:33.792" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]'.</msg>
+<msg timestamp="20230920 02:11:34.189" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]</msg>
+<status status="PASS" starttime="20230920 02:11:33.790" endtime="20230920 02:11:34.190"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:26.214" endtime="20230920 02:07:27.943"/>
+<status status="PASS" starttime="20230920 02:11:32.181" endtime="20230920 02:11:34.190"/>
 </kw>
 <kw name="Click no Switch Automatic Answer">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/switchWidget</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:28.689" level="INFO">criteria is com.ichi2.anki.debug:id/switchWidget</msg>
-<status status="PASS" starttime="20230920 02:07:27.944" endtime="20230920 02:07:28.689"/>
+<msg timestamp="20230920 02:11:34.861" level="INFO">criteria is com.ichi2.anki.debug:id/switchWidget</msg>
+<status status="PASS" starttime="20230920 02:11:34.190" endtime="20230920 02:11:34.861"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/switchWidget</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:28.691" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/switchWidget'.</msg>
-<msg timestamp="20230920 02:07:28.794" level="INFO">criteria is com.ichi2.anki.debug:id/switchWidget</msg>
-<status status="PASS" starttime="20230920 02:07:28.689" endtime="20230920 02:07:28.794"/>
+<msg timestamp="20230920 02:11:34.863" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/switchWidget'.</msg>
+<msg timestamp="20230920 02:11:34.959" level="INFO">criteria is com.ichi2.anki.debug:id/switchWidget</msg>
+<status status="PASS" starttime="20230920 02:11:34.862" endtime="20230920 02:11:34.959"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:27.944" endtime="20230920 02:07:28.794"/>
+<status status="PASS" starttime="20230920 02:11:34.190" endtime="20230920 02:11:34.959"/>
 </kw>
 <kw name="Click no Botão Voltar">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@content-desc='Navigate up']</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:28.798" level="INFO">Clicking element 'xpath=//*[@content-desc='Navigate up']'.</msg>
-<msg timestamp="20230920 02:07:29.512" level="INFO">xpath criteria: //*[@content-desc='Navigate up']</msg>
-<status status="PASS" starttime="20230920 02:07:28.795" endtime="20230920 02:07:29.512"/>
+<msg timestamp="20230920 02:11:34.963" level="INFO">Clicking element 'xpath=//*[@content-desc='Navigate up']'.</msg>
+<msg timestamp="20230920 02:11:35.675" level="INFO">xpath criteria: //*[@content-desc='Navigate up']</msg>
+<status status="PASS" starttime="20230920 02:11:34.960" endtime="20230920 02:11:35.675"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:28.795" endtime="20230920 02:07:29.513"/>
+<status status="PASS" starttime="20230920 02:11:34.959" endtime="20230920 02:11:35.675"/>
 </kw>
 <kw name="Click no Botão Reviewing">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/recycler_view</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:30.336" level="INFO">criteria is com.ichi2.anki.debug:id/recycler_view
-criteria is com.ichi2.anki.debug:id/recycler_view</msg>
-<status status="PASS" starttime="20230920 02:07:29.513" endtime="20230920 02:07:30.336"/>
+<msg timestamp="20230920 02:11:36.413" level="INFO">criteria is com.ichi2.anki.debug:id/recycler_view</msg>
+<status status="PASS" starttime="20230920 02:11:35.676" endtime="20230920 02:11:36.413"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:30.338" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]'.</msg>
-<msg timestamp="20230920 02:07:30.434" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]</msg>
-<status status="PASS" starttime="20230920 02:07:30.337" endtime="20230920 02:07:30.434"/>
+<msg timestamp="20230920 02:11:36.417" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]'.</msg>
+<msg timestamp="20230920 02:11:36.497" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/recycler_view']/*[2]</msg>
+<status status="PASS" starttime="20230920 02:11:36.415" endtime="20230920 02:11:36.497"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:29.513" endtime="20230920 02:07:30.434"/>
+<status status="PASS" starttime="20230920 02:11:35.676" endtime="20230920 02:11:36.497"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
 <kw name="Close All Applications" library="AppiumLibrary">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20230920 02:07:30.435" endtime="20230920 02:07:31.258"/>
+<status status="PASS" starttime="20230920 02:11:36.498" endtime="20230920 02:11:37.152"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:30.435" endtime="20230920 02:07:31.258"/>
+<status status="PASS" starttime="20230920 02:11:36.497" endtime="20230920 02:11:37.152"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:09.952" endtime="20230920 02:07:31.258"/>
+<status status="PASS" starttime="20230920 02:11:16.988" endtime="20230920 02:11:37.152"/>
 </test>
-<status status="PASS" starttime="20230920 02:07:09.949" endtime="20230920 02:07:31.259"/>
+<status status="PASS" starttime="20230920 02:11:16.984" endtime="20230920 02:11:37.153"/>
 </suite>
 <suite id="s1-s4" name="EstudarCartoesDeUmBaralho" source="/Users/coutinhonobre/AndroidStudioProjects/Anki-Robot-Test/tests/EstudarCartoesDeUmBaralho.robot">
 <test id="s1-s4-t1" name="Deve Estudar cartões de um baralho" line="57">
@@ -560,66 +564,65 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230920 02:07:31.264" endtime="20230920 02:07:39.375"/>
+<status status="PASS" starttime="20230920 02:11:37.159" endtime="20230920 02:11:45.433"/>
 </kw>
 <kw name="Get Started" library="base">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/get_started</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:39.377" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
-<msg timestamp="20230920 02:07:39.825" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
-<status status="PASS" starttime="20230920 02:07:39.376" endtime="20230920 02:07:39.825"/>
+<msg timestamp="20230920 02:11:45.436" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
+<msg timestamp="20230920 02:11:45.851" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
+<status status="PASS" starttime="20230920 02:11:45.434" endtime="20230920 02:11:45.852"/>
 </kw>
 <kw name="Aceitar Permissao de Disco" library="base">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:41.235" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:07:39.826" endtime="20230920 02:07:41.236"/>
+<msg timestamp="20230920 02:11:47.520" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:11:45.852" endtime="20230920 02:11:47.520"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:41.239" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
-<msg timestamp="20230920 02:07:41.344" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:07:41.236" endtime="20230920 02:07:41.344"/>
+<msg timestamp="20230920 02:11:47.523" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
+<msg timestamp="20230920 02:11:47.627" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:11:47.520" endtime="20230920 02:11:47.627"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:39.826" endtime="20230920 02:07:41.344"/>
+<status status="PASS" starttime="20230920 02:11:45.852" endtime="20230920 02:11:47.628"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:39.375" endtime="20230920 02:07:41.345"/>
+<status status="PASS" starttime="20230920 02:11:45.433" endtime="20230920 02:11:47.628"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:31.264" endtime="20230920 02:07:41.345"/>
+<status status="PASS" starttime="20230920 02:11:37.159" endtime="20230920 02:11:47.628"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/fab_main</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:42.642" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main
+<msg timestamp="20230920 02:11:48.785" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main
 criteria is com.ichi2.anki.debug:id/fab_main</msg>
-<status status="PASS" starttime="20230920 02:07:41.345" endtime="20230920 02:07:42.642"/>
+<status status="PASS" starttime="20230920 02:11:47.628" endtime="20230920 02:11:48.785"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/fab_main</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:42.645" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/fab_main'.</msg>
-<msg timestamp="20230920 02:07:44.079" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main</msg>
-<status status="PASS" starttime="20230920 02:07:42.642" endtime="20230920 02:07:44.079"/>
+<msg timestamp="20230920 02:11:48.787" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/fab_main'.</msg>
+<msg timestamp="20230920 02:11:48.995" level="INFO">criteria is com.ichi2.anki.debug:id/fab_main</msg>
+<status status="PASS" starttime="20230920 02:11:48.786" endtime="20230920 02:11:48.995"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/add_deck_action</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:44.798" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action
-criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
-<status status="PASS" starttime="20230920 02:07:44.079" endtime="20230920 02:07:44.798"/>
+<msg timestamp="20230920 02:11:49.705" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
+<status status="PASS" starttime="20230920 02:11:48.996" endtime="20230920 02:11:49.705"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/add_deck_action</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:44.801" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/add_deck_action'.</msg>
-<msg timestamp="20230920 02:07:45.008" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
-<status status="PASS" starttime="20230920 02:07:44.799" endtime="20230920 02:07:45.008"/>
+<msg timestamp="20230920 02:11:49.708" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/add_deck_action'.</msg>
+<msg timestamp="20230920 02:11:49.887" level="INFO">criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
+<status status="PASS" starttime="20230920 02:11:49.706" endtime="20230920 02:11:49.887"/>
 </kw>
 <kw name="Insira Texto No Campo de Mensagem">
 <arg>${DECK_NAME}</arg>
@@ -627,60 +630,59 @@ criteria is com.ichi2.anki.debug:id/add_deck_action</msg>
 <arg>id=com.ichi2.anki.debug:id/md_input_message</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:46.257" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
-<status status="PASS" starttime="20230920 02:07:45.009" endtime="20230920 02:07:46.257"/>
+<msg timestamp="20230920 02:11:51.227" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
+<status status="PASS" starttime="20230920 02:11:49.888" endtime="20230920 02:11:51.228"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_input_message</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:46.259" level="INFO">Typing text 'Teste3' into text field 'id=com.ichi2.anki.debug:id/md_input_message'</msg>
-<msg timestamp="20230920 02:07:46.409" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
-<status status="PASS" starttime="20230920 02:07:46.257" endtime="20230920 02:07:46.409"/>
+<msg timestamp="20230920 02:11:51.230" level="INFO">Typing text 'Teste3' into text field 'id=com.ichi2.anki.debug:id/md_input_message'</msg>
+<msg timestamp="20230920 02:11:51.370" level="INFO">criteria is com.ichi2.anki.debug:id/md_input_message</msg>
+<status status="PASS" starttime="20230920 02:11:51.228" endtime="20230920 02:11:51.370"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:45.008" endtime="20230920 02:07:46.410"/>
+<status status="PASS" starttime="20230920 02:11:49.887" endtime="20230920 02:11:51.370"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_button_positive</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:46.412" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/md_button_positive'.</msg>
-<msg timestamp="20230920 02:07:47.236" level="INFO">criteria is com.ichi2.anki.debug:id/md_button_positive</msg>
-<status status="PASS" starttime="20230920 02:07:46.410" endtime="20230920 02:07:47.236"/>
+<msg timestamp="20230920 02:11:51.373" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/md_button_positive'.</msg>
+<msg timestamp="20230920 02:11:52.189" level="INFO">criteria is com.ichi2.anki.debug:id/md_button_positive</msg>
+<status status="PASS" starttime="20230920 02:11:51.370" endtime="20230920 02:11:52.189"/>
 </kw>
 <kw name="ClickLong NoItem De Lista Foi Que Criado">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/deckpicker_name</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:48.434" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name
-criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
-<status status="PASS" starttime="20230920 02:07:47.237" endtime="20230920 02:07:48.434"/>
+<msg timestamp="20230920 02:11:53.034" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
+<status status="PASS" starttime="20230920 02:11:52.190" endtime="20230920 02:11:53.036"/>
 </kw>
 <kw name="Long Press" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']</arg>
 <doc>*DEPRECATED!!* Since selenium v4, use other keywords.</doc>
-<msg timestamp="20230920 02:07:48.435" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
-<msg timestamp="20230920 02:07:51.224" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']</msg>
-<status status="PASS" starttime="20230920 02:07:48.434" endtime="20230920 02:07:51.224"/>
+<msg timestamp="20230920 02:11:53.036" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
+<msg timestamp="20230920 02:11:55.783" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']</msg>
+<status status="PASS" starttime="20230920 02:11:53.036" endtime="20230920 02:11:55.783"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:47.236" endtime="20230920 02:07:51.224"/>
+<status status="PASS" starttime="20230920 02:11:52.190" endtime="20230920 02:11:55.783"/>
 </kw>
 <kw name="Click no Botão Add">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/md_recyclerview_content</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:51.280" level="INFO">criteria is com.ichi2.anki.debug:id/md_recyclerview_content</msg>
-<status status="PASS" starttime="20230920 02:07:51.225" endtime="20230920 02:07:51.280"/>
+<msg timestamp="20230920 02:11:55.838" level="INFO">criteria is com.ichi2.anki.debug:id/md_recyclerview_content</msg>
+<status status="PASS" starttime="20230920 02:11:55.783" endtime="20230920 02:11:55.838"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:51.283" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]'.</msg>
-<msg timestamp="20230920 02:07:51.334" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]</msg>
-<status status="PASS" starttime="20230920 02:07:51.280" endtime="20230920 02:07:51.334"/>
+<msg timestamp="20230920 02:11:55.840" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]'.</msg>
+<msg timestamp="20230920 02:11:55.896" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/md_recyclerview_content']/*[1]</msg>
+<status status="PASS" starttime="20230920 02:11:55.838" endtime="20230920 02:11:55.896"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:51.224" endtime="20230920 02:07:51.335"/>
+<status status="PASS" starttime="20230920 02:11:55.783" endtime="20230920 02:11:55.896"/>
 </kw>
 <kw name="Insira Texto No Campo Front">
 <arg>Hi</arg>
@@ -688,19 +690,18 @@ criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
 <arg>xpath=//android.widget.EditText[@content-desc="Front"]</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:52.881" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]
-xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
-<status status="PASS" starttime="20230920 02:07:51.336" endtime="20230920 02:07:52.881"/>
+<msg timestamp="20230920 02:11:57.488" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
+<status status="PASS" starttime="20230920 02:11:55.897" endtime="20230920 02:11:57.488"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>xpath=//android.widget.EditText[@content-desc="Front"]</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:52.886" level="INFO">Typing text 'Hi' into text field 'xpath=//android.widget.EditText[@content-desc="Front"]'</msg>
-<msg timestamp="20230920 02:07:52.965" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
-<status status="PASS" starttime="20230920 02:07:52.881" endtime="20230920 02:07:52.965"/>
+<msg timestamp="20230920 02:11:57.490" level="INFO">Typing text 'Hi' into text field 'xpath=//android.widget.EditText[@content-desc="Front"]'</msg>
+<msg timestamp="20230920 02:11:57.555" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
+<status status="PASS" starttime="20230920 02:11:57.488" endtime="20230920 02:11:57.556"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:51.335" endtime="20230920 02:07:52.965"/>
+<status status="PASS" starttime="20230920 02:11:55.896" endtime="20230920 02:11:57.556"/>
 </kw>
 <kw name="Insira Texto No Campo Back">
 <arg>Oi</arg>
@@ -708,106 +709,105 @@ xpath criteria: //android.widget.EditText[@content-desc="Front"]</msg>
 <arg>xpath=//android.widget.EditText[@content-desc="Back"]</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:53.785" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
-<status status="PASS" starttime="20230920 02:07:52.965" endtime="20230920 02:07:53.785"/>
+<msg timestamp="20230920 02:11:58.347" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
+<status status="PASS" starttime="20230920 02:11:57.557" endtime="20230920 02:11:58.347"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>xpath=//android.widget.EditText[@content-desc="Back"]</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:53.787" level="INFO">Typing text 'Oi' into text field 'xpath=//android.widget.EditText[@content-desc="Back"]'</msg>
-<msg timestamp="20230920 02:07:53.858" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
-<status status="PASS" starttime="20230920 02:07:53.785" endtime="20230920 02:07:53.858"/>
+<msg timestamp="20230920 02:11:58.349" level="INFO">Typing text 'Oi' into text field 'xpath=//android.widget.EditText[@content-desc="Back"]'</msg>
+<msg timestamp="20230920 02:11:58.448" level="INFO">xpath criteria: //android.widget.EditText[@content-desc="Back"]</msg>
+<status status="PASS" starttime="20230920 02:11:58.347" endtime="20230920 02:11:58.448"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:52.965" endtime="20230920 02:07:53.858"/>
+<status status="PASS" starttime="20230920 02:11:57.556" endtime="20230920 02:11:58.449"/>
 </kw>
 <kw name="Click no Botão Save">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/action_save</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:53.860" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_save'.</msg>
-<msg timestamp="20230920 02:07:54.388" level="INFO">criteria is com.ichi2.anki.debug:id/action_save</msg>
-<status status="PASS" starttime="20230920 02:07:53.858" endtime="20230920 02:07:54.388"/>
+<msg timestamp="20230920 02:11:58.452" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_save'.</msg>
+<msg timestamp="20230920 02:11:59.007" level="INFO">criteria is com.ichi2.anki.debug:id/action_save</msg>
+<status status="PASS" starttime="20230920 02:11:58.449" endtime="20230920 02:11:59.007"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:53.858" endtime="20230920 02:07:54.388"/>
+<status status="PASS" starttime="20230920 02:11:58.449" endtime="20230920 02:11:59.007"/>
 </kw>
 <kw name="Click no Botão Voltar">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@content-desc='Navigate up']</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:54.390" level="INFO">Clicking element 'xpath=//*[@content-desc='Navigate up']'.</msg>
-<msg timestamp="20230920 02:07:55.912" level="INFO">xpath criteria: //*[@content-desc='Navigate up']</msg>
-<status status="PASS" starttime="20230920 02:07:54.389" endtime="20230920 02:07:55.912"/>
+<msg timestamp="20230920 02:11:59.009" level="INFO">Clicking element 'xpath=//*[@content-desc='Navigate up']'.</msg>
+<msg timestamp="20230920 02:12:00.380" level="INFO">xpath criteria: //*[@content-desc='Navigate up']</msg>
+<status status="PASS" starttime="20230920 02:11:59.007" endtime="20230920 02:12:00.380"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:54.388" endtime="20230920 02:07:55.912"/>
+<status status="PASS" starttime="20230920 02:11:59.007" endtime="20230920 02:12:00.380"/>
 </kw>
 <kw name="Click NoItem De Lista Foi Que Criado">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/deckpicker_name</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:56.973" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name
+<msg timestamp="20230920 02:12:01.394" level="INFO">criteria is com.ichi2.anki.debug:id/deckpicker_name
 criteria is com.ichi2.anki.debug:id/deckpicker_name</msg>
-<status status="PASS" starttime="20230920 02:07:55.913" endtime="20230920 02:07:56.974"/>
+<status status="PASS" starttime="20230920 02:12:00.381" endtime="20230920 02:12:01.394"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:56.976" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']'.</msg>
-<msg timestamp="20230920 02:07:57.038" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']</msg>
-<status status="PASS" starttime="20230920 02:07:56.974" endtime="20230920 02:07:57.039"/>
+<msg timestamp="20230920 02:12:01.396" level="INFO">Clicking element 'xpath=//*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']'.</msg>
+<msg timestamp="20230920 02:12:01.494" level="INFO">xpath criteria: //*[@resource-id='com.ichi2.anki.debug:id/deckpicker_name' and @text='Teste3']</msg>
+<status status="PASS" starttime="20230920 02:12:01.394" endtime="20230920 02:12:01.494"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:55.913" endtime="20230920 02:07:57.039"/>
+<status status="PASS" starttime="20230920 02:12:00.380" endtime="20230920 02:12:01.495"/>
 </kw>
 <kw name="Verifique Se O Item De Lista Foi Criado">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>xpath=//android.view.View[@content-desc="Hi"]</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:07:59.256" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]
-xpath criteria: //android.view.View[@content-desc="Hi"]
+<msg timestamp="20230920 02:12:03.895" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]
 xpath criteria: //android.view.View[@content-desc="Hi"]</msg>
-<status status="PASS" starttime="20230920 02:07:57.039" endtime="20230920 02:07:59.257"/>
+<status status="PASS" starttime="20230920 02:12:01.495" endtime="20230920 02:12:03.895"/>
 </kw>
 <kw name="Page Should Contain Element" library="AppiumLibrary">
 <arg>xpath=//android.view.View[@content-desc="Hi"]</arg>
 <doc>Verifies that current page contains `locator` element.</doc>
-<msg timestamp="20230920 02:07:59.328" level="INFO">Current page contains element 'xpath=//android.view.View[@content-desc="Hi"]'.</msg>
-<msg timestamp="20230920 02:07:59.328" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]</msg>
-<status status="PASS" starttime="20230920 02:07:59.257" endtime="20230920 02:07:59.329"/>
+<msg timestamp="20230920 02:12:03.996" level="INFO">Current page contains element 'xpath=//android.view.View[@content-desc="Hi"]'.</msg>
+<msg timestamp="20230920 02:12:03.997" level="INFO">xpath criteria: //android.view.View[@content-desc="Hi"]</msg>
+<status status="PASS" starttime="20230920 02:12:03.896" endtime="20230920 02:12:03.997"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:57.039" endtime="20230920 02:07:59.329"/>
+<status status="PASS" starttime="20230920 02:12:01.495" endtime="20230920 02:12:03.997"/>
 </kw>
 <kw name="Click no Show Card">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/flip_card</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:59.331" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/flip_card'.</msg>
-<msg timestamp="20230920 02:07:59.539" level="INFO">criteria is com.ichi2.anki.debug:id/flip_card</msg>
-<status status="PASS" starttime="20230920 02:07:59.329" endtime="20230920 02:07:59.540"/>
+<msg timestamp="20230920 02:12:03.998" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/flip_card'.</msg>
+<msg timestamp="20230920 02:12:04.216" level="INFO">criteria is com.ichi2.anki.debug:id/flip_card</msg>
+<status status="PASS" starttime="20230920 02:12:03.997" endtime="20230920 02:12:04.216"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:59.329" endtime="20230920 02:07:59.540"/>
+<status status="PASS" starttime="20230920 02:12:03.997" endtime="20230920 02:12:04.216"/>
 </kw>
 <kw name="Click NoItem No Good Button">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/flashcard_layout_ease3</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:07:59.542" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/flashcard_layout_ease3'.</msg>
-<msg timestamp="20230920 02:08:00.450" level="INFO">criteria is com.ichi2.anki.debug:id/flashcard_layout_ease3</msg>
-<status status="PASS" starttime="20230920 02:07:59.540" endtime="20230920 02:08:00.451"/>
+<msg timestamp="20230920 02:12:04.218" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/flashcard_layout_ease3'.</msg>
+<msg timestamp="20230920 02:12:05.172" level="INFO">criteria is com.ichi2.anki.debug:id/flashcard_layout_ease3</msg>
+<status status="PASS" starttime="20230920 02:12:04.217" endtime="20230920 02:12:05.172"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:59.540" endtime="20230920 02:08:00.451"/>
+<status status="PASS" starttime="20230920 02:12:04.217" endtime="20230920 02:12:05.173"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
 <kw name="Close All Applications" library="AppiumLibrary">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20230920 02:08:00.451" endtime="20230920 02:08:01.374"/>
+<status status="PASS" starttime="20230920 02:12:05.173" endtime="20230920 02:12:06.214"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:00.451" endtime="20230920 02:08:01.374"/>
+<status status="PASS" starttime="20230920 02:12:05.173" endtime="20230920 02:12:06.214"/>
 </kw>
-<status status="PASS" starttime="20230920 02:07:31.263" endtime="20230920 02:08:01.374"/>
+<status status="PASS" starttime="20230920 02:11:37.158" endtime="20230920 02:12:06.214"/>
 </test>
-<status status="PASS" starttime="20230920 02:07:31.260" endtime="20230920 02:08:01.374"/>
+<status status="PASS" starttime="20230920 02:11:37.154" endtime="20230920 02:12:06.215"/>
 </suite>
 <suite id="s1-s5" name="SincronizarBaralhosComAContaAnkiWeb" source="/Users/coutinhonobre/AndroidStudioProjects/Anki-Robot-Test/tests/SincronizarBaralhosComAContaAnkiWeb.robot">
 <test id="s1-s5-t1" name="Deve Sincronizar baralhos com a conta AnkiWeb" line="41">
@@ -828,72 +828,71 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230920 02:08:01.378" endtime="20230920 02:08:09.039"/>
+<status status="PASS" starttime="20230920 02:12:06.219" endtime="20230920 02:12:13.738"/>
 </kw>
 <kw name="Get Started" library="base">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/get_started</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:09.040" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
-<msg timestamp="20230920 02:08:09.495" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
-<status status="PASS" starttime="20230920 02:08:09.039" endtime="20230920 02:08:09.495"/>
+<msg timestamp="20230920 02:12:13.740" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/get_started'.</msg>
+<msg timestamp="20230920 02:12:14.205" level="INFO">criteria is com.ichi2.anki.debug:id/get_started</msg>
+<status status="PASS" starttime="20230920 02:12:13.738" endtime="20230920 02:12:14.205"/>
 </kw>
 <kw name="Aceitar Permissao de Disco" library="base">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <arg>timeout=20</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:10.788" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:08:09.496" endtime="20230920 02:08:10.788"/>
+<msg timestamp="20230920 02:12:15.548" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:12:14.205" endtime="20230920 02:12:15.548"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.android.packageinstaller:id/permission_allow_button</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:10.791" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
-<msg timestamp="20230920 02:08:10.890" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
-<status status="PASS" starttime="20230920 02:08:10.788" endtime="20230920 02:08:10.890"/>
+<msg timestamp="20230920 02:12:15.550" level="INFO">Clicking element 'id=com.android.packageinstaller:id/permission_allow_button'.</msg>
+<msg timestamp="20230920 02:12:15.616" level="INFO">criteria is com.android.packageinstaller:id/permission_allow_button</msg>
+<status status="PASS" starttime="20230920 02:12:15.548" endtime="20230920 02:12:15.617"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:09.495" endtime="20230920 02:08:10.890"/>
+<status status="PASS" starttime="20230920 02:12:14.205" endtime="20230920 02:12:15.617"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:09.039" endtime="20230920 02:08:10.890"/>
+<status status="PASS" starttime="20230920 02:12:13.738" endtime="20230920 02:12:15.617"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:01.378" endtime="20230920 02:08:10.891"/>
+<status status="PASS" starttime="20230920 02:12:06.219" endtime="20230920 02:12:15.617"/>
 </kw>
 <kw name="Click no Menu Sync">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/action_sync</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:11.908" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync
+<msg timestamp="20230920 02:12:16.561" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync
 criteria is com.ichi2.anki.debug:id/action_sync</msg>
-<status status="PASS" starttime="20230920 02:08:10.891" endtime="20230920 02:08:11.908"/>
+<status status="PASS" starttime="20230920 02:12:15.619" endtime="20230920 02:12:16.561"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/action_sync</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:11.911" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_sync'.</msg>
-<msg timestamp="20230920 02:08:12.028" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync</msg>
-<status status="PASS" starttime="20230920 02:08:11.909" endtime="20230920 02:08:12.028"/>
+<msg timestamp="20230920 02:12:16.563" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_sync'.</msg>
+<msg timestamp="20230920 02:12:16.678" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync</msg>
+<status status="PASS" starttime="20230920 02:12:16.561" endtime="20230920 02:12:16.678"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:10.891" endtime="20230920 02:08:12.029"/>
+<status status="PASS" starttime="20230920 02:12:15.618" endtime="20230920 02:12:16.678"/>
 </kw>
 <kw name="Click no Log in do Dialog or Continue">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=android:id/button1</arg>
 <arg>timeout=2</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:12.809" level="INFO">criteria is android:id/button1
-criteria is android:id/button1</msg>
-<status status="PASS" starttime="20230920 02:08:12.029" endtime="20230920 02:08:12.809"/>
+<msg timestamp="20230920 02:12:17.512" level="INFO">criteria is android:id/button1</msg>
+<status status="PASS" starttime="20230920 02:12:16.679" endtime="20230920 02:12:17.512"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=android:id/button1</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:12.811" level="INFO">Clicking element 'id=android:id/button1'.</msg>
-<msg timestamp="20230920 02:08:12.927" level="INFO">criteria is android:id/button1</msg>
-<status status="PASS" starttime="20230920 02:08:12.809" endtime="20230920 02:08:12.927"/>
+<msg timestamp="20230920 02:12:17.515" level="INFO">Clicking element 'id=android:id/button1'.</msg>
+<msg timestamp="20230920 02:12:17.629" level="INFO">criteria is android:id/button1</msg>
+<status status="PASS" starttime="20230920 02:12:17.513" endtime="20230920 02:12:17.630"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:12.029" endtime="20230920 02:08:12.927"/>
+<status status="PASS" starttime="20230920 02:12:16.679" endtime="20230920 02:12:17.630"/>
 </kw>
 <kw name="Insira Email No Campo de Email address">
 <arg>${EMAIL}</arg>
@@ -901,19 +900,19 @@ criteria is android:id/button1</msg>
 <arg>id=com.ichi2.anki.debug:id/username</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:14.332" level="INFO">criteria is com.ichi2.anki.debug:id/username
+<msg timestamp="20230920 02:12:19.044" level="INFO">criteria is com.ichi2.anki.debug:id/username
 criteria is com.ichi2.anki.debug:id/username</msg>
-<status status="PASS" starttime="20230920 02:08:12.928" endtime="20230920 02:08:14.333"/>
+<status status="PASS" starttime="20230920 02:12:17.631" endtime="20230920 02:12:19.044"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/username</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:14.334" level="INFO">Typing text 'coutinhonobre360@gmail.com' into text field 'id=com.ichi2.anki.debug:id/username'</msg>
-<msg timestamp="20230920 02:08:14.932" level="INFO">criteria is com.ichi2.anki.debug:id/username</msg>
-<status status="PASS" starttime="20230920 02:08:14.333" endtime="20230920 02:08:14.932"/>
+<msg timestamp="20230920 02:12:19.047" level="INFO">Typing text 'coutinhonobre360@gmail.com' into text field 'id=com.ichi2.anki.debug:id/username'</msg>
+<msg timestamp="20230920 02:12:19.783" level="INFO">criteria is com.ichi2.anki.debug:id/username</msg>
+<status status="PASS" starttime="20230920 02:12:19.044" endtime="20230920 02:12:19.783"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:12.928" endtime="20230920 02:08:14.932"/>
+<status status="PASS" starttime="20230920 02:12:17.630" endtime="20230920 02:12:19.783"/>
 </kw>
 <kw name="Insira Senha No Campo de Password">
 <arg>${PASSWORD}</arg>
@@ -921,76 +920,76 @@ criteria is com.ichi2.anki.debug:id/username</msg>
 <arg>id=com.ichi2.anki.debug:id/password</arg>
 <arg>timeout=2</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:15.483" level="INFO">criteria is com.ichi2.anki.debug:id/password</msg>
-<status status="PASS" starttime="20230920 02:08:14.933" endtime="20230920 02:08:15.483"/>
+<msg timestamp="20230920 02:12:20.309" level="INFO">criteria is com.ichi2.anki.debug:id/password</msg>
+<status status="PASS" starttime="20230920 02:12:19.784" endtime="20230920 02:12:20.312"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/password</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:15.486" level="INFO">Typing text '12345678' into text field 'id=com.ichi2.anki.debug:id/password'</msg>
-<msg timestamp="20230920 02:08:16.051" level="INFO">criteria is com.ichi2.anki.debug:id/password</msg>
-<status status="PASS" starttime="20230920 02:08:15.485" endtime="20230920 02:08:16.051"/>
+<msg timestamp="20230920 02:12:20.313" level="INFO">Typing text '12345678' into text field 'id=com.ichi2.anki.debug:id/password'</msg>
+<msg timestamp="20230920 02:12:20.919" level="INFO">criteria is com.ichi2.anki.debug:id/password</msg>
+<status status="PASS" starttime="20230920 02:12:20.312" endtime="20230920 02:12:20.919"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:14.932" endtime="20230920 02:08:16.051"/>
+<status status="PASS" starttime="20230920 02:12:19.784" endtime="20230920 02:12:20.919"/>
 </kw>
 <kw name="Click no Botao Log in">
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/login_button</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:16.053" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/login_button'.</msg>
-<msg timestamp="20230920 02:08:16.591" level="INFO">criteria is com.ichi2.anki.debug:id/login_button</msg>
-<status status="PASS" starttime="20230920 02:08:16.051" endtime="20230920 02:08:16.591"/>
+<msg timestamp="20230920 02:12:20.922" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/login_button'.</msg>
+<msg timestamp="20230920 02:12:21.447" level="INFO">criteria is com.ichi2.anki.debug:id/login_button</msg>
+<status status="PASS" starttime="20230920 02:12:20.920" endtime="20230920 02:12:21.447"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:16.051" endtime="20230920 02:08:16.591"/>
+<status status="PASS" starttime="20230920 02:12:20.919" endtime="20230920 02:12:21.447"/>
 </kw>
 <kw name="Click no Menu Sync">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/action_sync</arg>
 <arg>timeout=5</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:24.434" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync</msg>
-<status status="PASS" starttime="20230920 02:08:16.592" endtime="20230920 02:08:24.434"/>
+<msg timestamp="20230920 02:12:29.543" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync</msg>
+<status status="PASS" starttime="20230920 02:12:21.448" endtime="20230920 02:12:29.543"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=com.ichi2.anki.debug:id/action_sync</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:24.436" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_sync'.</msg>
-<msg timestamp="20230920 02:08:24.492" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync</msg>
-<status status="PASS" starttime="20230920 02:08:24.435" endtime="20230920 02:08:24.492"/>
+<msg timestamp="20230920 02:12:29.545" level="INFO">Clicking element 'id=com.ichi2.anki.debug:id/action_sync'.</msg>
+<msg timestamp="20230920 02:12:29.604" level="INFO">criteria is com.ichi2.anki.debug:id/action_sync</msg>
+<status status="PASS" starttime="20230920 02:12:29.543" endtime="20230920 02:12:29.605"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:16.591" endtime="20230920 02:08:24.493"/>
+<status status="PASS" starttime="20230920 02:12:21.447" endtime="20230920 02:12:29.605"/>
 </kw>
 <kw name="Click no Log in do Dialog or Continue">
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=android:id/button1</arg>
 <arg>timeout=2</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230920 02:08:25.237" level="INFO">criteria is android:id/button1
+<msg timestamp="20230920 02:12:30.344" level="INFO">criteria is android:id/button1
 criteria is android:id/button1</msg>
-<status status="PASS" starttime="20230920 02:08:24.493" endtime="20230920 02:08:25.237"/>
+<status status="PASS" starttime="20230920 02:12:29.606" endtime="20230920 02:12:30.345"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=android:id/button1</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230920 02:08:25.239" level="INFO">Clicking element 'id=android:id/button1'.</msg>
-<msg timestamp="20230920 02:08:25.341" level="INFO">criteria is android:id/button1</msg>
-<status status="PASS" starttime="20230920 02:08:25.237" endtime="20230920 02:08:25.342"/>
+<msg timestamp="20230920 02:12:30.348" level="INFO">Clicking element 'id=android:id/button1'.</msg>
+<msg timestamp="20230920 02:12:30.403" level="INFO">criteria is android:id/button1</msg>
+<status status="PASS" starttime="20230920 02:12:30.345" endtime="20230920 02:12:30.404"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:24.493" endtime="20230920 02:08:25.342"/>
+<status status="PASS" starttime="20230920 02:12:29.605" endtime="20230920 02:12:30.404"/>
 </kw>
 <kw name="Close Session" library="base" type="TEARDOWN">
 <kw name="Close All Applications" library="AppiumLibrary">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20230920 02:08:25.342" endtime="20230920 02:08:25.996"/>
+<status status="PASS" starttime="20230920 02:12:30.404" endtime="20230920 02:12:31.049"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:25.342" endtime="20230920 02:08:25.996"/>
+<status status="PASS" starttime="20230920 02:12:30.404" endtime="20230920 02:12:31.050"/>
 </kw>
-<status status="PASS" starttime="20230920 02:08:01.378" endtime="20230920 02:08:25.996"/>
+<status status="PASS" starttime="20230920 02:12:06.219" endtime="20230920 02:12:31.050"/>
 </test>
-<status status="PASS" starttime="20230920 02:08:01.375" endtime="20230920 02:08:25.997"/>
+<status status="PASS" starttime="20230920 02:12:06.215" endtime="20230920 02:12:31.050"/>
 </suite>
-<status status="PASS" starttime="20230920 02:06:16.978" endtime="20230920 02:08:25.997"/>
+<status status="PASS" starttime="20230920 02:10:23.242" endtime="20230920 02:12:31.052"/>
 </suite>
 <statistics>
 <total>
@@ -1008,7 +1007,7 @@ criteria is android:id/button1</msg>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230920 02:06:53.836" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
-<msg timestamp="20230920 02:07:48.435" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
+<msg timestamp="20230920 02:11:03.342" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
+<msg timestamp="20230920 02:11:53.036" level="WARN">Keyword 'AppiumLibrary.Long Press' is deprecated. Since selenium v4, use other keywords.</msg>
 </errors>
 </robot>
